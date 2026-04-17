@@ -6,7 +6,7 @@ cat > /home/Steam/update_zomboid.txt <<'EOL'
 //
 @ShutdownOnFailedCommand 1 //set to 0 if updating multiple servers at once
 @NoPromptForPassword 1
-force_install_dir /opt/pzserver/
+force_install_dir /home/steam/server-files
 //for servers which don't need a login
 login anonymous
 app_update 380870 validate

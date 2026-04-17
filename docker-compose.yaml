@@ -9,8 +9,9 @@ services:
       - sample_text="Hello World!!"
     volumes:
       - ./server-files:/home/steam/server-files
-      - ./SERVER-data:/home/steam/.SERVER_DATA
+      - ./server-data:/home/steam/Zomboid
     ports:
-      - 25565:25565
+      - 16261:16261/udp
+      - 16262:16262/udp
     stdin_open: true
     tty: true
