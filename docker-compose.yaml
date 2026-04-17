@@ -1,7 +1,7 @@
 services:
-  dedicated-server:
-    container_name: dedicated-server
-    image: dedicated-server:latest
+  project-zomboid-dedicated-server:
+    container_name: project-zomboid-dedicated-server
+    image: project-zomboid-dedicated-server:latest
     build:
       network: host
       context: build

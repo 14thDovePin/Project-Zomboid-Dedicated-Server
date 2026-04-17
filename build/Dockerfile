@@ -7,8 +7,9 @@ ENV sample_text="Hello World!"
 
 # Document Ports
 
-# Sample Port
-EXPOSE 25565
+# Dedicated Server Ports
+EXPOSE 16261/udp
+EXPOSE 16262/udp
 
 COPY container-script.sh /container-script.sh
 COPY entrypoint.sh /entrypoint.sh
