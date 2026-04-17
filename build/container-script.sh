@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Add container setup bash code here...
+
+# SteamCMD configuration file.
 cat > /home/Steam/update_zomboid.txt <<'EOL'
 // update_zomboid.txt
 //
@@ -9,6 +11,6 @@ cat > /home/Steam/update_zomboid.txt <<'EOL'
 force_install_dir /home/steam/server-files
 //for servers which don't need a login
 login anonymous
-app_update 380870 validate
+app_update 380870 -beta unstable validate
 quit
 EOL
