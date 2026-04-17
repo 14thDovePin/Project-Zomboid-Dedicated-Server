@@ -8,7 +8,7 @@ export PATH=$PATH:/usr/games
 if [ ! -f $SERVER_EXECUTABLE ]; then
   echo "Downloading server files..."
 
-  bash /home/steam/steamcmd/steamcmd.sh +runscript /home/Steam/update_zomboid.txt
+  bash /home/steam/steamcmd/steamcmd.sh +runscript /home/steam/update_zomboid.txt
 fi
 
 # Start the server.
