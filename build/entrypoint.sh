@@ -1,7 +1,6 @@
 #!/bin/bash
 
 SERVER_EXECUTABLE="/home/steam/server-files/start-server.sh"
-APP = 380870
 
 export PATH=$PATH:/usr/games
 
