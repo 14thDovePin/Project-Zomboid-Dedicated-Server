@@ -6,7 +6,7 @@ services:
       network: host
       context: build
     environment:
-      - sample_text="Hello World!!"
+      - servername="servertest"
     volumes:
       - ./server-files:/home/steam/server-files
       - ./server-data:/home/steam/Zomboid

@@ -3,7 +3,7 @@
 FROM cm2network/steamcmd:steam-bookworm
 
 # Environment Variables
-ENV sample_text="Hello World!"
+ENV servername="servertest"
 
 # Document Ports
 

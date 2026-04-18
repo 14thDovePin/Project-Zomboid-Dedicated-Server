@@ -12,4 +12,4 @@ if [ ! -f $SERVER_EXECUTABLE ]; then
 fi
 
 # Start the server.
-bash $SERVER_EXECUTABLE
+bash $SERVER_EXECUTABLE -servername $servername

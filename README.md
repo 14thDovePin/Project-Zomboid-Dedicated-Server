@@ -2,7 +2,8 @@
 A basic Project Zomboid dedicated server based on Docker Debian with SteamCMD. Details of how the server was setup inside the container can be found [here](https://pzwiki.net/wiki/Dedicated_server#Through_SteamCMD)
 
 ### Environment Variables
-- `sample_text` = "Hello World!"
+- `servername` = "servertest"
+  - Name of the server (ini file) to be used. More info [here](https://pzwiki.net/wiki/Dedicated_server#Customizing_server_name:~:text=can%20change%20the-,name%20of%20the%20server,-%2C%20this%20will%20change).
 
 ### Docker Image Details
 - Image uses Steam's Debian Bookworm as its base image.
