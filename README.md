@@ -14,4 +14,4 @@ A basic Project Zomboid dedicated server based on Docker Debian with SteamCMD. D
   - `./server-files` is the installation folder of Project Zomboid.
 
 ### Server Details
-- Server details here.
+- Information on how the server is built inside this image as well as how to configure, manage, and operate the server can be found the website of [Project Zomboid Wiki](https://pzwiki.net/wiki/Dedicated_server).
