@@ -9,7 +9,9 @@ A basic Project Zomboid dedicated server based on Docker Debian with SteamCMD. D
 
 ### Docker Image Details
 - Image uses Steam's Debian Bookworm as its base image.
-- Docker image details here.
+- Creates two volumes `./server-data` `./server-files`.
+  - `./server-data` contains game data related files.
+  - `./server-files` is the installation folder of Project Zomboid.
 
 ### Server Details
 - Server details here.
