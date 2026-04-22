@@ -3,7 +3,8 @@
 FROM cm2network/steamcmd:steam-bookworm
 
 # Environment Variables
-ENV servername="servertest"
+ENV server_name="servertest"
+ENV update_server_files="false"
 
 # Document Ports
 

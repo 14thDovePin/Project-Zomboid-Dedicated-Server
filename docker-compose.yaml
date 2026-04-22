@@ -6,7 +6,8 @@ services:
       network: host
       context: build
     environment:
-      - servername="servertest"
+      - server_name=servertest
+      - update_server_files=false
     volumes:
       - ./server-files:/home/steam/server-files
       - ./server-data:/home/steam/Zomboid
